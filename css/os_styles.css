@@ -1,0 +1,34 @@
+div.big-banner {
+  width: 100%
+  height: 300px;
+}
+
+div.big-banner div.main-banner-news {
+  float: left;
+  width: 65%;
+  height: inherit;
+  background-color: red;
+}
+
+div.big-banner div.smaller-news {
+  float: left;
+  width: 35%;
+  height: inherit;
+
+}
+
+div.big-banner div.smaller-news div.smaller-news-image{
+  background-color: blue;
+  clear:left;
+}
+
+div.big-banner div.main-banner-news img {
+  width: 100%;
+  height: 100%
+
+}
+
+div.big-banner div.smaller-news img {
+  width: 100%;
+  height: 100%
+}
