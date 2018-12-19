@@ -6,11 +6,20 @@ div.big-banner {
   width: 100%;
   height: 24rem;
   overflow: hidden;
-  padding-top: 3%;
+  padding-top: 1%;
 }
+div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline-footer {
+  color: hsla(0,0%,100%,.6);
+}
+
 div.big-banner div.main-banner-news div.big-banner-news-section {
   clear: both;
-  margin-top: 30%;
+  margin-top: 16%;
   margin-left: 7%;
   color: #fff;
   font-size: 100%;
@@ -30,9 +39,9 @@ div.big-banner div.main-banner-news div.news-date-time {
   color: #fff
 }
 div.big-banner div.main-banner-news {
-
+  margin: 1rem;
   float: left;
-  width: 65%;
+  width: 60%;
   height: 100%;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design57-796x417.png");
   background-size: cover;
@@ -46,12 +55,28 @@ div.big-banner div.smaller-news {
 }
 
 div.big-banner div.smaller-news div.smaller-news-image{
-  background-color: blue;
+  margin: 1rem;
   clear:left;
   height: 50%;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design57-796x417.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.small-banner-news-top-section {
+  float: right;
+  color: white;
+}
+.small-big-banner-news-headline-footer {
+  font-size: 14px;
+}
+.small-big-banner-news-section {
+  padding-top: 12%;
+  font-size: 20px;
+  color: white;
+}
+.small-main-banner-news {
+  padding: 12px;
 }
 
 @media (max-width: 768px) {
