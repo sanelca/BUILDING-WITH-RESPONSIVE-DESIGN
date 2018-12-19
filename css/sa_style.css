@@ -79,6 +79,7 @@ body .header .headerBottom .rightSearchPart .searchButton {
   width: 100%;
   padding-left: 1%;
   padding-right: 1%;
+  margin-top: 20px;
 }
 .latestNews h3, .latestFundingRoundsPart h3 {
   margin: 0;
@@ -86,25 +87,18 @@ body .header .headerBottom .rightSearchPart .searchButton {
   margin-bottom: 5px;
 }
 .latestNews .articlesGrid, .latestFundingRoundsPart .gridElements {
-  display: table;
-  margin-top: 10px;
+  display: inline-grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  
+  float: left;
+  width: 100%;
 }
 .latestNews .articlesGrid .article {
-  width: 23.5%;
-  padding-left: 1%;
-  padding-right: 1%;
-  display: table-cell;
+  float: left;
+      width: 100%;
 }
-.latestNews .articlesGrid .article.left,
-.latestFundingRoundsPart .gridElements .article.left
-{
-  padding-left: 0;
-}
-.latestNews .articlesGrid .article.right,
-.latestFundingRoundsPart .gridElements .article.right
-{
-  padding-right: 0;
-}
+
 .latestNews .articlesGrid .article a {
 
 }
@@ -122,15 +116,12 @@ body .header .headerBottom .rightSearchPart .searchButton {
 
 }
 
-.latestFundingRoundsPart {
 
-}
 .latestFundingRoundsPart .topPart {
-
+  width: 100%;
+  float: left;
 }
-.latestFundingRoundsPart .gridElements {
 
-}
 .latestFundingRoundsPart .gridElements .article {
 
 }
@@ -138,20 +129,96 @@ body .header .headerBottom .rightSearchPart .searchButton {
 
 }
 .latestFundingRoundsPart .gridElements .article .topPart .topLeftImage {
-
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 8px;
+  width: 40px;
+  height: 45px;
+  padding: 0;
 }
 .latestFundingRoundsPart .gridElements .article .topPart .topLeftImage img {
-
+  float: left;
+  width: 100%;
 }
 .latestFundingRoundsPart .gridElements .article .topPart .title {
+  float: left;
+  width: 100%;
 
+}
+.latestFundingRoundsPart .gridElements .article .topPart .title h4 {
+  background: #f42;
+  color: #fff;
+  padding: 10.66666667px 16px;
+  padding-left: 52px;
+  margin: 0!important;
+  font-size: 18px!important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .latestFundingRoundsPart .gridElements .article .topPart .subTitle {
-
+  padding: 10.66666667px 16px;
+  padding-left: 52px;
+  color: #000;
+  background: rgba(255,68,34,.08);
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle h4 {
+  margin: 0;
+  float: left;
+  width: 100%;
+  font-size: 13px;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle h5 {
+  margin: 0;
+  font-size: 9px;
+  float: left;
+  width: 100%;
 }
 .latestFundingRoundsPart .gridElements .article .content {
-
+  float: left;
+  width: 100%;
+  background-color: #fffaf8;
+  padding: 5%;
+  border-bottom: solid 0.1px #f1d2cc;
+}
+.latestFundingRoundsPart .gridElements .article .content a {
+  float: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: grey;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon-card {
+  background-position: -976px -976px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon-suitcase {
+    background-position: -48px -48px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .text {
+  float: left;
+  margin-left: 5px;
 }
 .latestFundingRoundsPart .gridElements .article .subContent {
-
+  float: left;
+  width: 100%;
+}
+.latestFundingRoundsPart .gridElements .article .subContent a {
+  padding: 10px;
+      float: left;
+      width: 100%;
+      font-size: 11px;
+      cursor: pointer;
+}
+.latestFundingRoundsPart .gridElements .article .subContent a span {
+color: grey;
 }
