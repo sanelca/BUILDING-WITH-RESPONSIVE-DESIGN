@@ -74,18 +74,18 @@ body .header .headerBottom .rightSearchPart .searchButton {
 
 }
 
-.latestNews {
+.latestNews, .latestFundingRoundsPart {
   float: left;
-  width: 98%;
+  width: 100%;
   padding-left: 1%;
   padding-right: 1%;
 }
-.latestNews h3 {
+.latestNews h3, .latestFundingRoundsPart h3 {
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.latestNews .articlesGrid {
+.latestNews .articlesGrid, .latestFundingRoundsPart .gridElements {
   display: table;
   margin-top: 10px;
 }
@@ -95,10 +95,14 @@ body .header .headerBottom .rightSearchPart .searchButton {
   padding-right: 1%;
   display: table-cell;
 }
-.latestNews .articlesGrid .article.left{
+.latestNews .articlesGrid .article.left,
+.latestFundingRoundsPart .gridElements .article.left
+{
   padding-left: 0;
 }
-.latestNews .articlesGrid .article.right{
+.latestNews .articlesGrid .article.right,
+.latestFundingRoundsPart .gridElements .article.right
+{
   padding-right: 0;
 }
 .latestNews .articlesGrid .article a {
@@ -115,5 +119,39 @@ body .header .headerBottom .rightSearchPart .searchButton {
 
 }
 .latestNews .articlesGrid .article a span.authorAndPublishDate {
+
+}
+
+.latestFundingRoundsPart {
+
+}
+.latestFundingRoundsPart .topPart {
+
+}
+.latestFundingRoundsPart .gridElements {
+
+}
+.latestFundingRoundsPart .gridElements .article {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .topLeftImage {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .topLeftImage img {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .title {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle {
+
+}
+.latestFundingRoundsPart .gridElements .article .content {
+
+}
+.latestFundingRoundsPart .gridElements .article .subContent {
 
 }
