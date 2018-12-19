@@ -10,6 +10,7 @@ body .header {
 body .header .headerTop {
   float: left;
   width: 100%;
+  background-color: black;
 }
 body .header .headerTop ul {
   margin: 0;
@@ -23,17 +24,96 @@ body .header .headerTop ul li:hover ul {
   display: block;
 }
 body .header .headerTop ul li a {
-
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: #d6d6d6;
+  cursor: pointer;
+}
+body .header .headerTop ul li a:hover {
+  color:white;
 }
 body .header .headerTop ul li ul {
   position: absolute;
-  width: 110px;
+  width: 175px;
   display: none;
+  margin-top: 26px;
+  background-color: black;
 }
 body .header .headerTop ul li ul li {
   float: left;
   width: 100%;
 }
-body .header .headerTop ul li ul li a {
+
+body .header .headerBottom {
+    float: left;
+    width: 98%;
+    padding: 1%;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
+}
+body .header .headerBottom .leftPart {
+  float: left;
+}
+body .header .headerBottom .leftPart a {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: grey;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+body .header .headerBottom .leftPart a:hover {
+  color: black;
+}
+body .header .headerBottom .rightSearchPart {
+
+}
+body .header .headerBottom .rightSearchPart .searchButton {
+
+}
+
+.latestNews {
+  float: left;
+  width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.latestNews h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.latestNews .articlesGrid {
+  display: table;
+  margin-top: 10px;
+}
+.latestNews .articlesGrid .article {
+  width: 23.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: table-cell;
+}
+.latestNews .articlesGrid .article.left{
+  padding-left: 0;
+}
+.latestNews .articlesGrid .article.right{
+  padding-right: 0;
+}
+.latestNews .articlesGrid .article a {
+
+}
+.latestNews .articlesGrid .article a img {
+  float: left;
+  width: 100%;
+}
+.latestNews .articlesGrid .article a span {
+
+}
+.latestNews .articlesGrid .article a span.mainMenu {
+
+}
+.latestNews .articlesGrid .article a span.authorAndPublishDate {
 
 }
