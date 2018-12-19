@@ -11,6 +11,8 @@ div.big-banner {
 div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline {
   font-weight: 900;
   font-size: 50px;
+  font-family: Avalon,sans-serif;
+  letter-spacing: -.015em;
 }
 
 div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline-footer {
@@ -23,7 +25,18 @@ div.big-banner div.main-banner-news div.big-banner-news-section {
   margin-left: 7%;
   color: #fff;
   font-size: 100%;
-  font-weight: 9900;
+  font-weight: 900;
+}
+.section-latest{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0;
 }
 div.big-banner div.main-banner-news div.cover-logo{
   background-image: url("http://icons.iconarchive.com/icons/goescat/macaron/1024/atom-icon.png");
@@ -74,10 +87,47 @@ div.big-banner div.smaller-news div.smaller-news-image{
   padding-top: 12%;
   font-size: 20px;
   color: white;
+  font-family: Avalon,sans-serif;
+  letter-spacing: -.015em;
 }
 .small-main-banner-news {
   padding: 12px;
 }
+
+div.section-u-row div.section-item div.section-item-image{
+  padding: 14px;
+  color: white;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/belgium-fsma-watchdog-cryptocurrency-scam-exchanges-368x276.jpg");
+}
+
+div.section-u-row div.section-item div.section-item-image p{
+  margin-top: 20%;
+}
+
+div.section-u-row div.section-item div.section-item-image h3{
+
+}
+
+div.section-u-row {
+  clear: both;
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+div.section-u-row div.section-item{
+  float: left;
+  width: 33%;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   div.big-banner div.main-banner-news {
