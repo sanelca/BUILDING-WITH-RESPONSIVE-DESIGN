@@ -112,13 +112,15 @@ div.section-u-row div.section-item div.section-item-image h3{
 
 div.section-u-row {
   clear: both;
-  width: 100%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 div.section-u-row div.section-item{
   float: left;
-  width: 25%;
+  width: 23%;
+  margin-left: 1%;
+  margin-right: 1%;
+
 }
 div.section-u-row div.section-item div.section-latest {
     color: #ff4422;
@@ -148,6 +150,13 @@ div.section-u-row div.section-item div ul li {
 
 
 @media (max-width: 768px) {
+  div.section-u-row div.section-item{
+    float: none;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
   div.big-banner div.main-banner-news {
     margin: 1rem;
     clear: both;
@@ -170,10 +179,20 @@ div.section-u-row div.section-item div ul li {
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
+  div.section-u-row div.section-item{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
 
+  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
+  div.section-u-row div.section-item{
+    width: 31.333%;
+    margin-left: 1%;
+    margin-right: 1%;
 
+  }
 }
 @media (min-width: 1201px) {
 
