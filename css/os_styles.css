@@ -156,6 +156,22 @@ div.section-u-row div.section-item div ul li {
     padding: 3%;
 }
 
+div.footer-legal {
+  background-color: black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer div.footer-legal div.wrapper{
+  height: 12px;
+}
+footer div.footer-legal div.wrapper span a img{
+  height: 7px;
+}
+footer div.footer-legal div.wrapper span{
+  color: white;
+}
+
 footer {
   float: left;
   text-align: center;
@@ -163,11 +179,21 @@ footer {
   height: auto;
   margin-top: 3%;
 }
+footer div.footer-link ul li {
+  display: inline-block;
+  margin-right: 0.1%;
+  margin-left: 0.1%;
+}
+footer div.footer-link ul{
+  color: white;
+  padding-bottom: 2%;
+}
 
-footer div.social-links {
-  padding-top: 12em;
-  padding-bottom: 12em;
+footer div.footer-wrapper {
   background-color: #131313;
+}
+footer div.social-links {
+
 }
 footer div.social-links ul li {
   display: inline-block;
