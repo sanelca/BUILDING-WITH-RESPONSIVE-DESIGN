@@ -40,7 +40,7 @@ body .header .headerTop ul li ul {
   position: absolute;
   width: 175px;
   display: none;
-  margin-top: 26px;
+  margin-top: 6px;
   background-color: black;
 }
 body .header .headerTop ul li ul li {
@@ -74,27 +74,34 @@ body .header .headerBottom .rightSearchPart .searchButton {
 
 }
 
-.latestNews, .latestFundingRoundsPart {
+.latestNews, .latestFundingRoundsPart, .latestDealsPart {
   float: left;
   width: 100%;
   padding-left: 1%;
   padding-right: 1%;
   margin-top: 20px;
 }
-.latestNews h3, .latestFundingRoundsPart h3 {
+.latestDealsPart .topPart {
+  float: left;
+  width: 100%;
+}
+.latestNews h3, .latestFundingRoundsPart h3, .latestDealsPart h3 {
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.latestNews .articlesGrid, .latestFundingRoundsPart .gridElements {
+.latestNews .articlesGrid,
+.latestFundingRoundsPart .gridElements,
+.latestDealsPart .gridElements {
   display: inline-grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
   float: left;
   width: 100%;
 }
-.latestNews .articlesGrid .article {
+.latestNews .articlesGrid .article,
+.latestDealsPart .gridElements .article {
   float: left;
       width: 100%;
 }
@@ -221,4 +228,17 @@ body .header .headerBottom .rightSearchPart .searchButton {
 }
 .latestFundingRoundsPart .gridElements .article .subContent a span {
 color: grey;
+}
+.latestDealsPart .gridElements .article a {
+
+}
+.latestDealsPart .gridElements .article a img {
+  float: left;
+      width: 100%;
+}
+.latestDealsPart .gridElements .article a .mainMenu {
+
+}
+.latestDealsPart .gridElements .article a .authorAndPublishDate {
+
 }
