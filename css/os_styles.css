@@ -26,7 +26,7 @@ div.big-banner div.main-banner-news div.big-banner-news-section {
   font-size: 100%;
   font-weight: 900;
 }
-.section-latest{
+div.section-latest{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,6 +36,14 @@ div.big-banner div.main-banner-news div.big-banner-news-section {
   flex-direction: row;
   background-color: rgba(255,68,34,.06);
   margin: 2px 0;
+}
+div.section-latest div h5 {
+  margin: 0px;
+  font-weight: bold;
+}
+div.section-latest div p {
+  margin: 0px;
+  font-weight: bold;
 }
 div.big-banner div.main-banner-news div.cover-logo{
   background-image: url("http://icons.iconarchive.com/icons/goescat/macaron/1024/atom-icon.png");
@@ -117,7 +125,7 @@ div.section-u-row {
 }
 div.section-u-row div.section-item{
   float: left;
-  width: 23%;
+  width: 31.333%;
   margin-left: 1%;
   margin-right: 1%;
 
@@ -134,8 +142,9 @@ div.section-u-row div.section-item h2 {
 div.section-u-row div.section-item div ul {
     list-style: none;
     padding: 0px;
+    font-size: 80%;
 }
-li::before {
+div.section-u-row div.section-item div ul li::before {
     content: "•    ";
     color: #ff4422; /* or whatever color you prefer */
 }
@@ -147,6 +156,36 @@ div.section-u-row div.section-item div ul li {
     padding: 3%;
 }
 
+footer {
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+footer div.social-links {
+  padding-top: 12em;
+  padding-bottom: 12em;
+  background-color: #131313;
+}
+footer div.social-links ul li {
+  display: inline-block;
+  padding-top: 11px;
+  padding-left: 1px;
+  color: white;
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+footer div.social-links ul {
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+}
 
 
 @media (max-width: 768px) {
