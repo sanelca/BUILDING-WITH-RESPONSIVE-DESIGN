@@ -50,7 +50,7 @@ body .header .headerTop ul li ul li {
 
 body .header .headerBottom {
     float: left;
-    width: 98%;
+    width: 100%;
     padding: 1%;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
 }
@@ -88,7 +88,9 @@ body .header .headerBottom .rightSearchPart .searchButton {
 .latestNews h3, .latestFundingRoundsPart h3, .latestDealsPart h3 {
   margin: 0;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  color: red;
+  font-size: 26px;
 }
 .latestNews .articlesGrid,
 .latestFundingRoundsPart .gridElements,
@@ -241,4 +243,57 @@ color: grey;
 }
 .latestDealsPart .gridElements .article a .authorAndPublishDate {
 
+}
+
+@media (max-width: 360px) {
+  body .header .headerBottom .leftPart a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: grey;
+    cursor: pointer;
+    font-family: sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  div.big-banner {
+      width: 100%;
+      clear: both;
+      float: left;
+      height: auto!important;
+  }
+  .latestNews, .latestFundingRoundsPart, .latestDealsPart {
+      float: left;
+      width: 100%;
+      padding-left: 4%;
+      padding-right: 4%;
+      margin-top: 20px;
+  }
+  .latestNews .articlesGrid .article a img {
+      float: left;
+      width: 26%;
+      margin-right: 10px;
+  }
+  .latestNews .articlesGrid .article, .latestDealsPart .gridElements .article {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .latestNews .articlesGrid .article a span.authorAndPublishDate {
+      color: grey;
+      float: left;
+  }
+  .latestDealsPart .gridElements .article a img {
+      float: left;
+      width: 100%;
+      width: 25%;
+      margin-right: 10px;
+  }
+  .latestDealsPart .gridElements .article a .authorAndPublishDate {
+      float: left;
+      color: grey;
+  }
 }
