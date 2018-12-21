@@ -164,6 +164,8 @@ div.footer-legal {
 
 footer div.footer-legal div.wrapper{
   height: 12px;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-weight: lighter;
 }
 footer div.footer-legal div.wrapper span a img{
   height: 7px;
