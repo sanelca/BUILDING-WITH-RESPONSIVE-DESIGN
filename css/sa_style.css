@@ -77,8 +77,8 @@ body .header .headerBottom .rightSearchPart .searchButton {
 .latestNews, .latestFundingRoundsPart, .latestDealsPart {
   float: left;
   width: 100%;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 6%;
+  padding-right: 6%;
   margin-top: 20px;
 }
 .latestDealsPart .topPart {
@@ -91,14 +91,35 @@ body .header .headerBottom .rightSearchPart .searchButton {
   margin-bottom: 20px;
   color: red;
   font-size: 26px;
+  float: left;
+  cursor: pointer;
+}
+.latestNews h3:hover, .latestFundingRoundsPart h3:hover, .latestDealsPart h3:hover,
+.latestNews .topPart .rightUrls a:hover , .latestFundingRoundsPart .topPart .rightUrls a:hover, .latestDealsPart .topPart .rightUrls a:hover {
+  color:black;
+}
+.latestNews .topPart .rightUrls, .latestFundingRoundsPart .topPart .rightUrls, .latestDealsPart .topPart .rightUrls {
+  float: right;
+}
+.latestNews .topPart .rightUrls a , .latestFundingRoundsPart .topPart .rightUrls a, .latestDealsPart .topPart .rightUrls a {
+  padding-left: 5px;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 15px;
+  float: left;
+}
+.latestNews h3 i, .latestFundingRoundsPart h3 i, .latestDealsPart h3 i {
+  float: right;
+  margin-left: 5px;
+  margin-top: 3px;
 }
 .latestNews .articlesGrid,
 .latestFundingRoundsPart .gridElements,
 .latestDealsPart .gridElements {
   display: inline-grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   float: left;
   width: 100%;
 }
@@ -220,6 +241,7 @@ body .header .headerBottom .rightSearchPart .searchButton {
 .latestFundingRoundsPart .gridElements .article .subContent {
   float: left;
   width: 100%;
+  background-color: #fffaf8;
 }
 .latestFundingRoundsPart .gridElements .article .subContent a {
   padding: 10px;
@@ -234,17 +256,40 @@ color: grey;
 .latestDealsPart .gridElements .article a {
 
 }
-.latestDealsPart .gridElements .article a img {
-  float: left;
-      width: 100%;
-}
-.latestDealsPart .gridElements .article a .mainMenu {
+.latestDealsPart .gridElements .article .imageFrame {
 
+}
+.latestDealsPart .gridElements .article .rightSide {
+  
+}
+.latestDealsPart .gridElements .article a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.latestDealsPart .gridElements .article a .mainMenu,
+.latestNews .articlesGrid .article a span.mainMenu {
+  float: left;
+  width: 100%;
+  font-weight: 900;
+  font-size: 17px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.latestDealsPart .gridElements .article a .mainMenu:hover {
+  color: red;
 }
 .latestDealsPart .gridElements .article a .authorAndPublishDate {
-
+  width: 100%;
 }
-
+.latestDealsPart .gridElements .article a .authorAndPublishDate span {
+  float: left;
+  margin-right: 5px;
+  font-size: 15px;
+  text-decoration: line-through;
+  color: #b7b7b7;
+}
 @media (max-width: 360px) {
   body .header .headerBottom .leftPart a {
     padding-left: 5px;
@@ -289,11 +334,34 @@ color: grey;
   .latestDealsPart .gridElements .article a img {
       float: left;
       width: 100%;
-      width: 25%;
       margin-right: 10px;
   }
   .latestDealsPart .gridElements .article a .authorAndPublishDate {
       float: left;
       color: grey;
+  }
+  .latestDealsPart .gridElements .article .imageFrame {
+    float: left;
+    width: 25%;
+  }
+  .latestDealsPart .gridElements .article .rightSide {
+    float: right;
+    width: 75%;
+    padding-left: 10px;
+  } 
+  .latestNews h3 i, .latestFundingRoundsPart h3 i, .latestDealsPart h3 i {
+    float:none;
+  } 
+  .latestFundingRoundsPart .topPart .rightUrls {
+    float: left;
+    width: 100%;
+  }
+  .latestFundingRoundsPart .topPart .rightUrls a {
+    padding: 0!important;
+    float: left;
+    width: 100%;
+    border: none!important;
+    margin-top: 0px;
+    margin-bottom: 10px; 
   }
 }
