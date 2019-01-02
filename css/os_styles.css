@@ -216,6 +216,10 @@ footer div.social-links ul {
 
 
 @media (max-width: 768px) {
+  footer div.social-links ul {
+    display: inline-block;
+    width: 100%;
+  }
   div.section-u-row div.section-item{
     float: none;
     width: 98%;
