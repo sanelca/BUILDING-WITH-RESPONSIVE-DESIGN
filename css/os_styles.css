@@ -1,0 +1,269 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.big-banner {
+  width: 100%;
+  height: 24rem;
+  clear: both;
+}
+div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline {
+  font-weight: 900;
+  font-size: 220%;
+  font-family: Avalon,sans-serif;
+  letter-spacing: -.015em;
+}
+
+div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline-footer {
+  color: hsla(0,0%,100%,.6);
+}
+
+div.big-banner div.main-banner-news div.big-banner-news-section {
+  clear: both;
+  margin-top: 16%;
+  margin-left: 7%;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 900;
+}
+div.section-latest{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0;
+}
+div.section-latest div h5 {
+  margin: 0px;
+  font-weight: bold;
+}
+div.section-latest div p {
+  margin: 0px;
+  font-weight: bold;
+}
+div.big-banner div.main-banner-news div.cover-logo{
+  background-image: url("http://icons.iconarchive.com/icons/goescat/macaron/1024/atom-icon.png");
+  height: 70px;
+  float: left;
+  width: 80px;
+  z-index: 1;
+  padding: 3%
+}
+div.big-banner div.main-banner-news div.news-date-time {
+  float: right;
+  padding: 3%;
+  color: #fff
+}
+div.big-banner div.main-banner-news {
+  margin: 1rem;
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design57-796x417.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.big-banner div.smaller-news {
+  float: left;
+  width: 35%;
+  height: 100%;
+}
+
+div.big-banner div.smaller-news div.smaller-news-image{
+  margin: 1rem;
+  clear:left;
+  height: 50%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design57-796x417.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.small-banner-news-top-section {
+  float: right;
+  color: white;
+}
+.small-big-banner-news-headline-footer {
+  font-size: 14px;
+}
+.small-big-banner-news-section {
+  padding-top: 12%;
+  font-size: 20px;
+  color: white;
+  font-family: Avalon,sans-serif;
+  letter-spacing: -.015em;
+}
+.small-main-banner-news {
+  padding: 12px;
+}
+
+div.section-u-row div.section-item div.section-item-image{
+  padding: 14px;
+  color: white;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/belgium-fsma-watchdog-cryptocurrency-scam-exchanges-368x276.jpg");
+}
+
+div.section-u-row div.section-item div.section-item-image p{
+  margin-top: 30%;
+}
+
+div.section-u-row div.section-item div.section-item-image h3{
+
+}
+
+div.section-u-row {
+  clear: both;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+div.section-u-row div.section-item{
+  float: left;
+  width: 31.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+div.section-u-row div.section-item div.section-latest {
+    color: #ff4422;
+}
+
+div.section-u-row div.section-item h2 {
+    color: #ff4422;
+    font-weight: 700;
+}
+
+div.section-u-row div.section-item div ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 80%;
+}
+div.section-u-row div.section-item div ul li::before {
+    content: "•    ";
+    color: #ff4422; /* or whatever color you prefer */
+}
+div.section-u-row div.section-item div ul li {
+    color: #aaa;
+    border-bottom: solid;
+    border-width: 0.1px;
+    border-color: #aaaaaa;
+    padding: 3%;
+}
+
+div.footer-legal {
+  background-color: black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer div.footer-legal div.wrapper{
+  height: 12px;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-weight: lighter;
+}
+footer div.footer-legal div.wrapper span a img{
+  height: 7px;
+}
+footer div.footer-legal div.wrapper span{
+  color: white;
+}
+
+footer {
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+}
+footer div.footer-link ul li {
+  display: inline-block;
+  margin-right: 0.1%;
+  margin-left: 0.1%;
+}
+footer div.footer-link ul{
+  color: white;
+  padding-bottom: 2%;
+}
+
+footer div.footer-wrapper {
+  background-color: #131313;
+}
+footer div.social-links {
+
+}
+footer div.social-links ul li {
+  display: inline-block;
+  padding-top: 11px;
+  padding-left: 1px;
+  color: white;
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+footer div.social-links ul {
+  display: inline-block;
+  width: 50%;
+}
+
+
+@media (max-width: 768px) {
+  footer div.social-links ul {
+    display: inline-block;
+    width: 100%;
+  }
+  div.section-u-row div.section-item{
+    float: none;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+  div.big-banner div.main-banner-news {
+    margin: 1rem;
+    clear: both;
+    width: 91%;
+    height: 50%;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Untitled-design57-796x417.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div.big-banner div.smaller-news {
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+  div.big-banner div.main-banner-news div.big-banner-news-section div.big-banner-news-headline {
+    font-weight: 900;
+    font-size: 100%;
+    font-family: Avalon,sans-serif;
+    letter-spacing: -.015em;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  div.section-u-row div.section-item{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  div.section-u-row div.section-item{
+    width: 31.333%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+}
+@media (min-width: 1201px) {
+
+}

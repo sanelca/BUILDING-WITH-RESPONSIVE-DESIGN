@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+body .header {
+  float: left;
+  width: 100%;
+}
+body .header .headerTop {
+  float: left;
+  width: 100%;
+  background-color: black;
+}
+body .header .headerTop ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body .header .headerTop ul li {
+float: left;
+}
+body .header .headerTop ul li:hover ul {
+  display: block;
+}
+body .header .headerTop ul li a {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: #d6d6d6;
+  cursor: pointer;
+}
+body .header .headerTop ul li a:hover {
+  color:white;
+}
+body .header .headerTop ul li ul {
+  position: absolute;
+  width: 175px;
+  display: none;
+  margin-top: 6px;
+  background-color: black;
+}
+body .header .headerTop ul li ul li {
+  float: left;
+  width: 100%;
+}
+
+body .header .headerBottom {
+    float: left;
+    width: 100%;
+    padding: 1%;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
+}
+body .header .headerBottom .leftPart {
+  float: left;
+}
+body .header .headerBottom .leftPart a {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: grey;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+body .header .headerBottom .leftPart a:hover {
+  color: black;
+}
+body .header .headerBottom .rightSearchPart {
+
+}
+body .header .headerBottom .rightSearchPart .searchButton {
+
+}
+
+.latestNews, .latestFundingRoundsPart, .latestDealsPart {
+  float: left;
+  width: 100%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 20px;
+}
+.latestDealsPart .topPart {
+  float: left;
+  width: 100%;
+}
+.latestNews h3, .latestFundingRoundsPart h3, .latestDealsPart h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: red;
+  font-size: 26px;
+  float: left;
+  cursor: pointer;
+}
+.latestNews h3:hover, .latestFundingRoundsPart h3:hover, .latestDealsPart h3:hover,
+.latestNews .topPart .rightUrls a:hover , .latestFundingRoundsPart .topPart .rightUrls a:hover, .latestDealsPart .topPart .rightUrls a:hover {
+  color:black;
+}
+.latestNews .topPart .rightUrls, .latestFundingRoundsPart .topPart .rightUrls, .latestDealsPart .topPart .rightUrls {
+  float: right;
+}
+.latestNews .topPart .rightUrls a , .latestFundingRoundsPart .topPart .rightUrls a, .latestDealsPart .topPart .rightUrls a {
+  padding-left: 5px;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 15px;
+  float: left;
+}
+.latestNews h3 i, .latestFundingRoundsPart h3 i, .latestDealsPart h3 i {
+  float: right;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.latestNews .articlesGrid,
+.latestFundingRoundsPart .gridElements,
+.latestDealsPart .gridElements {
+  display: inline-grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  float: left;
+  width: 100%;
+}
+.latestNews .articlesGrid .article,
+.latestDealsPart .gridElements .article {
+  float: left;
+      width: 100%;
+}
+
+.latestNews .articlesGrid .article a {
+
+}
+.latestNews .articlesGrid .article a img {
+  float: left;
+  width: 100%;
+}
+.latestNews .articlesGrid .article a span {
+
+}
+.latestNews .articlesGrid .article a span.mainMenu {
+
+}
+.latestNews .articlesGrid .article a span.authorAndPublishDate {
+
+}
+
+
+.latestFundingRoundsPart .topPart {
+  width: 100%;
+  float: left;
+}
+
+.latestFundingRoundsPart .gridElements .article {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart {
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .topLeftImage {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 8px;
+  width: 40px;
+  height: 45px;
+  padding: 0;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .topLeftImage img {
+  float: left;
+  width: 100%;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .title {
+  float: left;
+  width: 100%;
+
+}
+.latestFundingRoundsPart .gridElements .article .topPart .title h4 {
+  background: #f42;
+  color: #fff;
+  padding: 10.66666667px 16px;
+  padding-left: 52px;
+  margin: 0!important;
+  font-size: 18px!important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle {
+  padding: 10.66666667px 16px;
+  padding-left: 52px;
+  color: #000;
+  background: rgba(255,68,34,.08);
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle h4 {
+  margin: 0;
+  float: left;
+  width: 100%;
+  font-size: 13px;
+}
+.latestFundingRoundsPart .gridElements .article .topPart .subTitle h5 {
+  margin: 0;
+  font-size: 9px;
+  float: left;
+  width: 100%;
+}
+.latestFundingRoundsPart .gridElements .article .content {
+  float: left;
+  width: 100%;
+  background-color: #fffaf8;
+  padding: 5%;
+  border-bottom: solid 0.1px #f1d2cc;
+}
+.latestFundingRoundsPart .gridElements .article .content a {
+  float: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: grey;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon-card {
+  background-position: -976px -976px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .icon-suitcase {
+    background-position: -48px -48px;
+}
+.latestFundingRoundsPart .gridElements .article .content a .text {
+  float: left;
+  margin-left: 5px;
+}
+.latestFundingRoundsPart .gridElements .article .subContent {
+  float: left;
+  width: 100%;
+  background-color: #fffaf8;
+}
+.latestFundingRoundsPart .gridElements .article .subContent a {
+  padding: 10px;
+      float: left;
+      width: 100%;
+      font-size: 11px;
+      cursor: pointer;
+}
+.latestFundingRoundsPart .gridElements .article .subContent a span {
+color: grey;
+}
+.latestDealsPart .gridElements .article a {
+
+}
+.latestDealsPart .gridElements .article .imageFrame {
+
+}
+.latestDealsPart .gridElements .article .rightSide {
+  
+}
+.latestDealsPart .gridElements .article a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.latestDealsPart .gridElements .article a .mainMenu,
+.latestNews .articlesGrid .article a span.mainMenu {
+  float: left;
+  width: 100%;
+  font-weight: 900;
+  font-size: 17px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.latestDealsPart .gridElements .article a .mainMenu:hover {
+  color: red;
+}
+.latestDealsPart .gridElements .article a .authorAndPublishDate {
+  width: 100%;
+}
+.latestDealsPart .gridElements .article a .authorAndPublishDate span {
+  float: left;
+  margin-right: 5px;
+  font-size: 15px;
+  text-decoration: line-through;
+  color: #b7b7b7;
+}
+@media (max-width: 360px) {
+  body .header .headerBottom .leftPart a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: grey;
+    cursor: pointer;
+    font-family: sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  div.big-banner {
+      width: 100%;
+      clear: both;
+      float: left;
+      height: auto!important;
+  }
+  .latestNews, .latestFundingRoundsPart, .latestDealsPart {
+      float: left;
+      width: 100%;
+      padding-left: 4%;
+      padding-right: 4%;
+      margin-top: 20px;
+  }
+  .latestNews .articlesGrid .article a img {
+      float: left;
+      width: 26%;
+      margin-right: 10px;
+  }
+  .latestNews .articlesGrid .article, .latestDealsPart .gridElements .article {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .latestNews .articlesGrid .article a span.authorAndPublishDate {
+      color: grey;
+      float: left;
+  }
+  .latestDealsPart .gridElements .article a img {
+      float: left;
+      width: 100%;
+      margin-right: 10px;
+  }
+  .latestDealsPart .gridElements .article a .authorAndPublishDate {
+      float: left;
+      color: grey;
+  }
+  .latestDealsPart .gridElements .article .imageFrame {
+    float: left;
+    width: 25%;
+  }
+  .latestDealsPart .gridElements .article .rightSide {
+    float: right;
+    width: 75%;
+    padding-left: 10px;
+  } 
+  .latestNews h3 i, .latestFundingRoundsPart h3 i, .latestDealsPart h3 i {
+    float:none;
+  } 
+  .latestFundingRoundsPart .topPart .rightUrls {
+    float: left;
+    width: 100%;
+  }
+  .latestFundingRoundsPart .topPart .rightUrls a {
+    padding: 0!important;
+    float: left;
+    width: 100%;
+    border: none!important;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+  }
+}
